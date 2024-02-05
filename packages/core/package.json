@@ -1,6 +1,6 @@
 {
   "name": "@osamublack/monode",
-  "version": "0.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "A single node element to build your whole web app",
   "main": "src/index.tsx",
   "exports": {
@@ -14,8 +14,8 @@
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@turbo/gen": "^1.11.3",
-    "@types/node": "^20.10.6",
     "@types/eslint": "^8.56.1",
+    "@types/node": "^20.10.6",
     "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
     "eslint": "^8.56.0",
