@@ -3,6 +3,7 @@ import { Card } from "@repo/ui/card";
 import { Code } from "@repo/ui/code";
 import styles from "./page.module.css";
 import { Button } from "@repo/ui/button";
+import addNumbers from "@osamublack/monode/index";
 
 function Gradient({
   conic,
@@ -79,7 +80,7 @@ export default function Page(): JSX.Element {
       </div>
 
       <Button appName="web" className={styles.button}>
-        Click me!
+        Click me {addNumbers(2, 2)} times!
       </Button>
 
       <div className={styles.hero}>
